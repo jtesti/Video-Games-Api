@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow:wght@500&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+
+main {
+    font-family: 'Tomorrow', sans-serif;
+}
+
+ul {
+    list-style: none;
+    margin: 10px 30px;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+}
+
+footer{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background-color: #232946;
+}
+
+.copyLogo h2 {
+    color: #eebbc3;
+    text-align: center;
+}
+
+.copyLogo h3 {
+    color: #eebbc3;
+    text-align: center;
+}
+
+.search-btn {
+    font-family: 'Tomorrow', sans-serif;
+    background-color: #eebbc3;
+    margin-right: 10px;
+    border-radius:  20px;
+    color: #232946;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: 0px;
+
+}
+
+.filter-btn {
+    font-family: 'Tomorrow', sans-serif;
+    font-size: 16px;
+    width: 150px;
+    height: 46px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #eebbc3;
+    border: 0px;
+    margin-top: 5px;
+    border-bottom: yellow 10px;
+    margin-right: 5px;
+
+}
+
+input {
+    font-family: 'Tomorrow', sans-serif;
+    font-size: 16px;
+    width: 200px;
+    background-color: #eebbc3;
+    align-items: center;
+    border: 2px solid #232946;
+    border-radius: 5px;
+    padding-left: 5px;
+    color: #232946;
+    margin-right: 10px;
+    padding: 5px 0;
+    text-align: center;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+header {
+    background-color: #232946;
+    padding-bottom: 30px;
+    
+}
+
+.consolesMain {
+    background-color: white;
+}
+
+.mainOthers {
+    background-color: #eebbc3;
+    background-image: url("https://www.transparenttextures.com/patterns/light-wool.png");
+}
+
+.banner-div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.fullImg {
+    width: 300px;
+}
+
+.img247 {
+    width: 150px;
+    height: 150px;
+}
+
+.banner-div > img {
+    max-width: 100%;
+}
+
+.container-filters{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px 50px 0 50px;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.seeker-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hover-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filteredGames {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    margin: 0;
+}
+
+.gameItem {
+    margin: 10px 10px;
+    box-shadow: 10px 5px 10px rgb(40, 40, 41);
+}
+
+.gameItem:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.consolesList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.consoleItem {
+    display: flex;
+    width: 400px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.consoleImg {
+    display: flex;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+.consoleImg img {
+    width: 200px;
+    height: 200px;
+}
+
+.consoleTxt {
+    height: 30%;
+}
+
+.consoleSpecifications {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
+
+.gamesList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px 0px;
+}
+
+.gameText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 20px;
+}
+
+.gameText p {
+    max-width: 500px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    font-family: 'Tomorrow', sans-serif;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    margin: 0;
+    width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background-color: #b8c1ec;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align-last: center;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.bigConsoleImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 45px 0 0;
+}
+
+.bigConsoleTxt {
+    margin-left: 45px;
+}
+
+.bigConsoleImg img {
+    width: 350px;
+    height: 350px;
+}
+
+.consoleGames {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
+
+.videogame {
+    margin: 10px 10px;
+}
+
+.videogameTxt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+.filterTitle {
+    text-align: center;
+    padding-top: 30px;
+    background-color: #eebbc3;
+    background-image: url("https://www.transparenttextures.com/patterns/light-wool.png");   
+    margin: 0;
+}
+
+.filterTitle h1 {
+    color: #232946;
+    margin: 0;
+    padding: 0;
+}
+
+.pointer:hover {
+    background-color: #eebbc3;
+    cursor: pointer;
+}

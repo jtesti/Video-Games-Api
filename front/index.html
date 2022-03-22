@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./app.js" defer></script>
+    <title> VideoGames | Consoles</title>
+</head>
+<body>
+    <header>
+        <div onclick="printConsoles()" class="banner-div">
+            <img class="fullImg"src="https://res.cloudinary.com/dz3ut3x5k/image/upload/v1647870938/fullstacklogo1-1-1024x341_l2kklo.png" alt="upgradeLogo">
+            <img class="img247" src="https://res.cloudinary.com/dz3ut3x5k/image/upload/v1647870938/355-3552838_open-24-7-24-7-entertainment-logo-png_mke6m1.png" alt="24-7">
+        </div>
+        <div class="container-filters">
+            <div class="seeker-div">
+                <input class="input" placeholder="Buscar un juego" type="text">
+                <button class="search-btn" onclick="searchGame()"> Buscar </button>
+            </div>
+            <div class="hover-div">
+                <div class="dropdown">
+                <button class="filter-btn" hover="showCategories()" onclick="categoriesList()">Categorias</button>
+                <div class="dropdown-content">
+                    <div class="pointer" onclick="filterByCategorie('Accion')">Accion</div>
+                    <div class="pointer" onclick="filterByCategorie('Aventura')">Aventura</div>
+                    <div class="pointer" onclick="filterByCategorie('Deportes')">Deportes</div>
+                    <div class="pointer" onclick="filterByCategorie('FPS')">Fps</div>
+                </div>
+                </div>
+                <div class="dropdown">
+                <button class="filter-btn" hover="showPlataform()">Plataformas</button>
+                <div class="dropdown-content">
+                    <div class="pointer" onclick="filterByPlatform('Playstation')">Playstation</div>
+                    <div class="pointer" onclick="filterByPlatform('Xbox')">Xbox</div>
+                    <div class="pointer" onclick="filterByPlatform('Nintendo')">Nintendo</div>
+                    <div class="pointer" onclick="filterByPlatform('PC')">PC</div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+    </main>
+    <footer>
+        <div class="copyLogo">
+            <h2>Jorge Testillano | Iván Ferrera | Tomás Sanchez | Javier Castillo</h2>
+            <h3>Copyright 2022 © </h3>
+        </div>
+    </footer>
+</body>
+</html>
